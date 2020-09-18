@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.loader {
+
+  border-radius: 50%;
+
+  width: 200px;
+  height: 200px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+	background: linear-gradient(165deg, rgba(255,255,255,1) 0%, rgb(220, 220, 220) 40%, rgb(170, 170, 170) 98%, rgb(10, 10, 10) 100%);
+box-shadow: 
+		0 -10px 20px 20px #ffffff40 inset,
+		0 -5px 15px 10px #ffffff50 inset,
+		0 -2px 5px #ffffff80 inset,
+		0 -3px 2px #ffffffBB inset,
+		0 2px 0px #ffffff,
+		0 2px 3px #ffffff,
+		0 5px 5px #ffffff90,
+		0 10px 15px #ffffff60,
+		0 10px 20px 20px #ffffff40;
+margin-left:40%;
+margin-top:30%;
+
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+</head>
+<body bgcolor="grey">
+
+<div class="loader"></div>
+
+</body>
+</html>
